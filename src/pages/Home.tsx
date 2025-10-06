@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Home() {
   return (
     <section className="min-h-screen flex flex-col justify-center items-center bg-gray-50 px-6 text-center">
@@ -19,18 +21,18 @@ export default function Home() {
 
       {/* CTA Buttons */}
       <div className="flex flex-wrap justify-center gap-4 mb-16">
-        <a
-          href="/projects"
+        <Link
+          to="/projects"
           className="px-6 py-3 bg-teal-600 text-white rounded-lg hover:bg-teal-700 transition"
         >
           View Projects
-        </a>
-        <a
-          href="/resume"
+        </Link>
+        <Link
+          to="/resume"
           className="px-6 py-3 border border-teal-600 text-teal-600 rounded-lg hover:bg-teal-50 transition"
         >
           View Resume
-        </a>
+        </Link>
       </div>
 
       {/* Quick Highlights */}

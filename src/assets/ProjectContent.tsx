@@ -190,11 +190,11 @@ export const personalProjects: Project[] = [
     type: "personal",
   },
   {
-    title: "Fruit washer",
+    title: "Fruit Washer",
     photos: [Pic33a, Pic35],
     timelinePhotos: [
       { photo: Pic33, title: "CAD" },
-      { photo: Pic34, title: "3D Printed Parts" },
+      { photo: Pic34, title: "3D Printed Part" },
       { photo: Pic35, title: "Final Product" },
     ],
     bullets: [

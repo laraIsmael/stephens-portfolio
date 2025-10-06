@@ -34,7 +34,7 @@ export default function Resume() {
 
         {/* Professional Summary */}
         <div className="mb-10 bg-white p-8 rounded-2xl shadow-md">
-          <h2 className="text-2xl font-bold text-teal-800 mb-4">
+          <h2 className="text-2xl font-bold text-teal-800">
             Professional Summary
           </h2>
           <p className="text-teal-700 mb-2">

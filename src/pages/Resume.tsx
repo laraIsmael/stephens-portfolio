@@ -37,13 +37,15 @@ export default function Resume() {
           <h2 className="text-2xl font-bold text-teal-800 mb-4">
             Professional Summary
           </h2>
+          <p className="text-teal-700 mb-2">
+            Mechanical Design Engineer – Product Development.
+          </p>
           <p className="text-teal-700 leading-relaxed">
-            Mechanical Design Engineer – Product Development. Results-driven
-            Mechanical Engineer with 7+ years of experience in medical devices,
-            robotics, and R&D, specializing in rapid prototyping and hands-on
-            design/build/test cycles. Adept at collaborating across disciplines
-            to deliver integrated solutions in fast-paced, startup-style
-            environments.
+            Results-driven Mechanical Engineer with 7+ years of experience in
+            medical devices, robotics, and R&D, specializing in rapid
+            prototyping and hands-on design/build/test cycles. Adept at
+            collaborating across disciplines to deliver integrated solutions in
+            fast-paced, startup-style environments.
           </p>
         </div>
 

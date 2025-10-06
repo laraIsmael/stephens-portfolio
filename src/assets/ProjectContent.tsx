@@ -89,7 +89,7 @@ export const workProjects: Project[] = [
     photos: [Pic5, Pic6],
     bullets: [
       "Reconfigured gear train to resolve housing clearance issue",
-      "Maintained torque/velocity ratios within 1.6% (spec allowed 3%)",
+      "Maintained torque/velocity ratios within 1.6% (spec allowed 5%)",
       "Leveraged off-the-shelf components for cost efficiency",
       "Enabled on-time delivery by keeping project on schedule",
     ],
@@ -114,9 +114,9 @@ export const personalProjects: Project[] = [
     ],
     bullets: [
       "Developed hinge mechanism to fold legs flat while preserving play area",
-      "Sketched and built cardboard mock-ups to validate design points",
+      "Sketched and built cardboard mock-ups to visualize design",
       "Created CAD models and assembly in OnShape to check fits and eliminate interference",
-      "3D printed parts with PLA and Birch-style wood for strength and aesthetics",
+      "3D printed parts with Birch-style wood PLA for strength and aesthetics",
       "Integrated original thumb screw and M6 nut for simple, durable assembly",
       "Result: Easy to fold, use, and install, freeing up 16 sq-ft of living space",
     ],
@@ -154,7 +154,7 @@ export const personalProjects: Project[] = [
       { photo: Pic24, title: "Design Input Table" },
       { photo: Pic25, title: "CAD" },
       { photo: Pic22, title: "3D Printed Parts" },
-      { photo: Pic27, title: "Final Product outside view" },
+      { photo: Pic27, title: "Final Product - outside view" },
       { photo: Pic26, title: "Final Product - no bin" },
       { photo: Pic28, title: "Final Product - with bin" },
     ],
@@ -174,7 +174,7 @@ export const personalProjects: Project[] = [
     photos: [Pic29, Pic29a],
     timelinePhotos: [
       { photo: Pic30, title: "CAD" },
-      { photo: Pic31, title: "3D Printed Parts" },
+      { photo: Pic31, title: "3D Printed Part" },
       { photo: Pic32, title: "Final Product" },
     ],
     bullets: [

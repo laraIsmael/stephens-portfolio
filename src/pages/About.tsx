@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import StephenProfile from "../assets/StephenProfile.png";
 
 export default function About() {
@@ -36,18 +37,18 @@ export default function About() {
 
           {/* CTA Buttons */}
           <div className="flex flex-wrap justify-center gap-4 mb-16">
-            <a
-              href="/projects"
+            <Link
+              to="/projects"
               className="px-6 py-3 bg-teal-600 text-white rounded-lg hover:bg-teal-700 transition"
             >
               View Projects
-            </a>
-            <a
-              href="/resume"
+            </Link>
+            <Link
+              to="/resume"
               className="px-6 py-3 border border-teal-600 text-teal-600 rounded-lg hover:bg-teal-50 transition"
             >
               View Resume
-            </a>
+            </Link>
           </div>
         </div>
       </div>

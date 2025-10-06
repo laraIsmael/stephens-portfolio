@@ -62,7 +62,7 @@ export default function Contact() {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/stephen-l-wilson"
+            href="https://www.linkedin.com/in/stephen-wilson/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-teal-700 hover:text-teal-900 transition-colors"
@@ -79,8 +79,7 @@ export default function Contact() {
           any questions.
         </p>
       </div>
-
-      {/* Contact Form */}
+      Contact Form
       <div className="w-full max-w-lg bg-white p-8 rounded-2xl shadow-lg mb-16">
         {status === "success" && (
           <p className="text-green-600 text-center mb-4">

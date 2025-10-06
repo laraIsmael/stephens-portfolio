@@ -79,7 +79,7 @@ export default function Contact() {
           any questions.
         </p>
       </div>
-      Contact Form
+      {/* Contact Form */}
       <div className="w-full max-w-lg bg-white p-8 rounded-2xl shadow-lg mb-16">
         {status === "success" && (
           <p className="text-green-600 text-center mb-4">
